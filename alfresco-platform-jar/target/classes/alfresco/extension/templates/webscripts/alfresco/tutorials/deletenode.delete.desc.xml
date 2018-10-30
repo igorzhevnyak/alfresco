@@ -1,0 +1,7 @@
+<webscript>
+    <shortname>Node Deleter Webscript</shortname>
+    <description>Delete selected node</description>
+    <url>/sample/delete/{nodeName}</url>
+    <authentication>user</authentication>
+    <lifecycle>sample</lifecycle>
+</webscript>

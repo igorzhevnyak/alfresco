@@ -1,0 +1,7 @@
+<webscript>
+    <shortname>Node Handler Webscript</shortname>
+    <description>Create a new node or replace existing</description>
+    <url>/node</url>
+    <authentication>user</authentication>
+    <lifecycle>sample</lifecycle>
+</webscript>

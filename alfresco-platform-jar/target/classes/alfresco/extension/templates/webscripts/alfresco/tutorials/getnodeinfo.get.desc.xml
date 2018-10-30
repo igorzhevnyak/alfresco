@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Node Info Webscript</shortname>
+    <description>View info about selected node</description>
+    <url>/nodeInfo/{nodeName}</url>
+    <authentication>user</authentication>
+    <format default="json"></format>
+    <lifecycle>sample</lifecycle>
+</webscript>

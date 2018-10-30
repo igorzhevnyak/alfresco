@@ -1,0 +1,6 @@
+com\epam\platformsample\Demo.class
+com\epam\platformsample\DemoComponent.class
+com\epam\platformsample\HelloWorldWebScript.class
+com\epam\custom\webscripts\DeleteNodeWebScript.class
+com\epam\custom\webscripts\GetNodeInfoWebScript.class
+com\epam\custom\webscripts\NodeHandlerWebScript.class
