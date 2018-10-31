@@ -6,34 +6,37 @@ import org.alfresco.service.cmr.repository.NodeService;
 import org.alfresco.service.namespace.QName;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.extensions.webscripts.*;
-
+import org.alfresco.model.ContentModel;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 public class NodeHandlerWebScript extends AbstractWebScript {
 
+    @Autowired
     private NodeService nodeService;
 
     public void execute(WebScriptRequest req, WebScriptResponse res) {
         Map<String, String> data = parseJson(req);
-        NodeRef parentNodeRef = new NodeRef(data.get("parentNodeRef"));
-        NodeRef nodeRef = new NodeRef(data.get("nodeName"));
         Map<QName, Serializable> properties = new HashMap<>();
-        properties.put(QName.createQName("propertyName"), QName.createQName(data.get("propertyName")));
-        properties.put(QName.createQName("propertyValue"), QName.createQName(data.get("propertyValue")));
+        properties.put(QName.createQName("name"), QName.createQName(data.get("propertyName")));
+        properties.put(QName.createQName("value"), QName.createQName(data.get("propertyValue")));
         Map<QName, Serializable> aspectProperties = new HashMap<>();
-        aspectProperties.put(QName.createQName("aspPropName"), QName.createQName(data.get("aspPropName")));
-        aspectProperties.put(QName.createQName("aspPropValue"), QName.createQName(data.get("aspPropValue")));
-        if (!nodeService.exists(nodeRef)) {
-            nodeService.createNode(parentNodeRef, null, null, null, properties);
-            nodeService.setType(nodeRef, QName.createQName(data.get("typeName")));
-            nodeService.addAspect(nodeRef, QName.createQName(data.get("aspectName")), aspectProperties);
+        aspectProperties.put(QName.createQName("name"), QName.createQName(data.get("aspPropName")));
+        aspectProperties.put(QName.createQName("value"), QName.createQName(data.get("aspPropValue")));
+        NodeRef parentNodeRef = new NodeRef(data.get("parentNodeRef"));
+        String nodeName = data.get("nodeName");
+        NodeRef node = nodeService.getChildByName(parentNodeRef, ContentModel.ASSOC_REFERENCES, nodeName);
+        if (!nodeService.exists(node)) {
+            NodeRef newNode = new NodeRef(nodeName);
+            nodeService.createNode(newNode, ContentModel.ASSOC_REFERENCES, QName.createQName("parent"), QName.createQName(data.get("typeName")), properties);
+            nodeService.addAspect(newNode, QName.createQName(data.get("aspectName")), aspectProperties);
         } else {
-            nodeService.setType(nodeRef, QName.createQName(data.get("typeName")));
-            nodeService.addAspect(nodeRef, QName.createQName(data.get("aspectName")), aspectProperties);
-            nodeService.addProperties(nodeRef, properties);
+            nodeService.setType(node, QName.createQName(data.get("typeName")));
+            nodeService.addAspect(node, QName.createQName(data.get("aspectName")), aspectProperties);
+            nodeService.addProperties(node, properties);
         }
     }
 
@@ -49,14 +52,14 @@ public class NodeHandlerWebScript extends AbstractWebScript {
             result.put("propertyValue", propArr.getJSONObject(i).getString("value"));
         }
         JSONArray aspArr = json.getJSONArray("aspects");
+        JSONArray aspPropArr = aspArr.getJSONObject(0).getJSONArray("properties");
         for (int i = 0; i < aspArr.length(); i++) {
             result.put("aspectName", propArr.getJSONObject(i).getString("name"));
-        }
-        JSONArray aspPropArr = aspArr.getJSONArray(1);
             for (int k = 0; k < aspPropArr.length(); k++) {
-                result.put("aspPropName", propArr.getJSONObject(k).getString("name"));
-                result.put("aspPropValue", propArr.getJSONObject(k).getString("value"));
+                result.put("aspPropName", aspPropArr.getJSONObject(k).getString("name"));
+                result.put("aspPropValue", aspPropArr.getJSONObject(k).getString("value"));
             }
+        }
         return result;
     }
 }

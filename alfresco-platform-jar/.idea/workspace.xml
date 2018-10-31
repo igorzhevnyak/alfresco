@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6c8d125-f8ee-48fc-8373-fc09bee0e72b" name="Default Changelist" comment="" />
+    <list default="true" id="a6c8d125-f8ee-48fc-8373-fc09bee0e72b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/DeleteNodeWebScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/DeleteNodeWebScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/GetNodeInfoWebScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/GetNodeInfoWebScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/NodeHandlerWebScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/NodeHandlerWebScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/deletenode.delete.desc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/deletenode.delete.desc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alfresco/extension/templates/webscripts/alfresco/tutorials/deletenode.delete.desc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alfresco/extension/templates/webscripts/alfresco/tutorials/deletenode.delete.desc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.platformsample.HelloWorldWebScriptControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.platformsample.HelloWorldWebScriptControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.platformsample.HelloWorldWebScriptControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.platformsample.HelloWorldWebScriptControllerTest.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +46,12 @@
           <entry key="ftl" value="10" />
           <entry key="fxml" value="1" />
           <entry key="html" value="6" />
-          <entry key="java" value="83" />
+          <entry key="java" value="114" />
           <entry key="js" value="7" />
           <entry key="log" value="4" />
           <entry key="md" value="1" />
           <entry key="properties" value="27" />
-          <entry key="xml" value="88" />
+          <entry key="xml" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,70 +59,63 @@
           <entry key="CLASS" value="7" />
           <entry key="Eclipse" value="1" />
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="83" />
+          <entry key="JAVA" value="114" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="27" />
-          <entry key="XML" value="90" />
+          <entry key="XML" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4096" />
+          <entry key="java" value="5452" />
           <entry key="js" value="4" />
           <entry key="properties" value="450" />
-          <entry key="xml" value="1079" />
+          <entry key="xml" value="1099" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4096" />
+          <entry key="JAVA" value="5452" />
           <entry key="JavaScript" value="4" />
           <entry key="Properties" value="450" />
-          <entry key="XML" value="1079" />
+          <entry key="XML" value="1099" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1167338661">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="74" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/NodeHandlerWebScript.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/DeleteNodeWebScript.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/GetNodeInfoWebScript.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,7 +137,12 @@
       <find>createNo</find>
       <find>delete</find>
       <find>move</find>
+      <find>getId</find>
+      <find>nodeHandler</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,11 +160,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.html.ftl" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.desc.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/deletenode.delete.desc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/GetNodeInfoWebScript.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/DeleteNodeWebScript.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/NodeHandlerWebScript.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/DeleteNodeWebScript.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/GetNodeInfoWebScript.java" />
       </list>
     </option>
   </component>
@@ -183,6 +196,7 @@
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -292,8 +306,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540910332980" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540976467188" />
+    <property name="last_opened_file_path" value="C:/Dev/Projects/alfresco/alfresco-platform-jar" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -335,9 +349,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.47014925" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.48249453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,52 +384,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f.jar!/org/alfresco/repo/version/NodeServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/module/alfresco-platform-jar/module.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/assembly/file-mapping.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/assembly/amp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/assembly/web/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/module/alfresco-platform-jar/messages/content-model.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/module/alfresco-platform-jar/context/bootstrap-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="98" lean-forward="true" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/module/alfresco-platform-jar/model/workflow-model.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/module/alfresco-platform-jar/messages/custom-content-model.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -438,9 +405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath" />
     <entry file="file://$PROJECT_DIR$/alfresco.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -508,13 +473,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-data-model/6.8/alfresco-data-model-6.8.jar!/org/alfresco/service/cmr/repository/NodeService.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/module/alfresco-platform-jar/context/webscript-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/surf/spring-webscripts/6.12/spring-webscripts-6.12-sources.jar!/org/springframework/extensions/webscripts/WebScriptRequestImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2839">
@@ -560,23 +518,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.html.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.json.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.html.ftl" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.json.ftl" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/surf/spring-webscripts/6.12/spring-webscripts-6.12-sources.jar!/org/springframework/extensions/webscripts/DeclarativeWebScript.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-850">
@@ -593,62 +537,13 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/service/cmr/repository/ContentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4811">
-          <folding>
-            <element signature="e#0#16110#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-4811" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/model/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="365" column="36" lean-forward="true" selection-start-line="361" selection-start-column="7" selection-end-line="376" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-data-model/6.8/alfresco-data-model-6.8-sources.jar!/org/alfresco/service/cmr/repository/NodeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-data-model/6.8/alfresco-data-model-6.8-sources.jar!/org/alfresco/service/cmr/repository/NodeRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.desc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/GetNodeInfoWebScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/deletenode.delete.desc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -659,10 +554,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/deletenode.delete.desc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/getnodeinfo.get.desc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/nodehandler.post.desc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-data-model/6.8/alfresco-data-model-6.8-sources.jar!/org/alfresco/service/cmr/repository/NodeRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="168" column="29" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/version/common/VersionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/version/NodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="172" column="31" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/domain/node/NodeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="217" column="19" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/domain/node/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/domain/node/AbstractNodeDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="982" column="53" selection-start-line="982" selection-start-column="53" selection-end-line="982" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/domain/node/NodeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-repository/5.2.f/alfresco-repository-5.2.f-sources.jar!/org/alfresco/repo/node/db/DbNodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="212" column="27" selection-start-line="212" selection-start-column="27" selection-end-line="212" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alfresco/module/alfresco-platform-jar/context/webscript-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/alfresco/alfresco-data-model/6.8/alfresco-data-model-6.8-sources.jar!/org/alfresco/service/cmr/repository/NodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="673" column="17" selection-start-line="673" selection-start-column="12" selection-end-line="673" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/text/html/parser/ContentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2763">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/DeleteNodeWebScript.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        <state relative-caret-position="374">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/GetNodeInfoWebScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="102" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/custom/webscripts/NodeHandlerWebScript.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+        <state relative-caret-position="283">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
